@@ -1,0 +1,229 @@
+<!doctype html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Register</title>
+        <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
+                <i class="fa fa-camera"></i><span>P</span>hoto<br><span>REC</span>reations
+            </div>
+            <div class="menu"  data-aos="fade-up-left">
+            <div class="dropdown">
+                <a href="index.html"><i class="fa fa-home"></i></a>
+                <div class="dropdown-content">Home</div>
+            </div>
+            <div class="dropdown">
+                <a href="aboutme.html"><i class="fa fa-users"></i></a>
+                <div class="dropdown-content">About</div>
+            </div>
+                <div class="dropdown">
+                <a href="gallery.html"><i class="fa fa-folder-open"></i></a>
+                <div class="dropdown-content">Gallery</div>
+            </div>
+                <div class="dropdown">
+                <a href="contact.html"><i class="fa fa-address-book"></i></a>
+                <div class="dropdown-content">Contact</div>
+            </div>
+                <div class="dropdown">
+                <a href="target.html"><i class="fa fa-bullseye"></i></a>
+                <div class="dropdown-content">Target</div>
+            </div>
+                <div class="dropdown">
+                <a href="index.html"><i class="fa fa-arrow-circle-left"></i></a>
+                <div class="dropdown-content">Back</div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <div class="head"><h1  data-aos="fade-down">
+        Registration Form</h1></div>
+    <div  class="fourm">
+    <form action = "next_page" name = "myForm" onsubmit = "return(validate());" data-aos="fade-up">
+            <table  border="2px">
+       
+        <tr>
+            <td><level>Enter your first Name</level></td>
+            <td><input type="text" name="F_name" size="25" maxlength="25" placeholder="First Name" class="input"></td>
+        </tr>
+        <tr>
+            <td><level>Enter your last Name</level></td>
+            <td><input type="text" name="L_name" size="25" maxlength="25" placeholder="Last Name" class="input"></td>
+        </tr>
+        <tr>
+            <td><level>Enter your password</level></td>
+            <td><input type="password" name="Pass" size="15" maxlength="20" placeholder="Password" class="input"></td>
+        </tr>
+        <tr>
+            <td><level>ReEnter your password</level></td>
+            <td><input type="password" name="Re_pass" size="15" maxlength="20" placeholder="Confirm Password" class="input"></td>
+        </tr>
+        <tr>
+            <td><level>Enter your email</level></td>
+            <td><input type="email" name="E_mail" size="30" maxlength="30" placeholder="E-mail" class="input" class="input"></td>
+        </tr>
+        <tr>
+            <td><level>Enter your mobile number</level></td>
+            <td><input type="number" name="Phone" size="15" maxlength="13" placeholder="+9############" class="input"></form></td>
+        </tr>
+        <tr>
+            <td><level>Enter your address</level></td>
+            <td><textarea cols="40" rows="4" name="Address" class="input"></textarea></td>
+        </tr>
+        <tr>
+            <td><level>Select your gender</level></td>
+            <td>Male <input type="radio" id="male" name="Gender" value="male">  Female <input type="radio" id="male" name="gender" value="female">  others <input type="radio" id="others"name="gender" value="others"></td>
+        </tr>
+        <tr>
+            <td><level>Select your DOB</level></td>
+            <td><input type="date" id="birthday" name="Birthday"></td>
+        </tr>
+        <tr>
+            <td><level>Select your country</level></td>
+            <td><select name="Country"><option value ="c1">Nepal</option><option value="c2">India</option><option value="c3">China</option><option value="c4">USA</option><option value ="c5">Europe</option><option value ="c6">Australia</option><option value ="c7">Japan</option><option value ="c8">Canada</option><option value ="c9">Dubai</option><option value ="c10">Africa</option></select></td>
+        </tr>
+        <tr> 
+            <td>Zip Code</td> 
+            <td><input type = "text" name = "Zip" placeholder="#####"></td>
+          </tr> 
+        <tr>
+            <td><level>Upload your pic</level></td>
+            <td><input type="file" id="picture" name="Myfile"></td>
+        </tr>
+        <tr class="btn">
+            <td colspan="2" align="center"><input type="submit" value="Register" >
+            <input type="reset" value="ResetData"  ></td>
+        </tr>
+    </table>
+</form>
+</div>
+
+        <footer>
+            <div class="newsletter">
+                <div  data-aos="fade-up" data-aos-offset="100"
+                data-aos-delay="100">
+                    <h2>Subscribe our Team</h2>
+                    <p>We're a team of non-cynics who truly care for our work.</p>
+                </div>
+                <div class="ntext"  data-aos="fade-up-right" data-aos-offset="100"
+                data-aos-delay="200">
+                    <label><input type="text" name="" placeholder="Enter your E-mail">
+                    <button>Subscribe</button>
+                </label>
+                </div>
+            </div>
+            <div class="f-contact"  data-aos="zoom-in" data-aos-offset="100"
+            data-aos-delay="200">
+                <div>
+                    <h1>Informations</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum illum, 
+                        odit fuga corporis sed modi similique corrupti voluptatibus,
+                         rem soluta doloremque est, eligendi omnis optio cupiditate ipsum 
+                         cumque alias dolorem!</p>
+                         <a href="https://www.whatsapp.com/"><i class="fa fa-whatsapp"></i></a>
+                         <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                         <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                         <a href="https://www.telegram.com"><i class="fa fa-telegram"></i></a>
+                </div>
+                <div class="link">
+                    <h1>Useful link</h1>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="gallery.html">Gallery</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+                    <p><a href="target.html">Target</a></p>
+                    <p><i class="fa fa-phone"></i>: +9779813432132</p>
+                </div>
+                <div class="detail">
+                    <h1>Details</h1>
+                    <p><a href="photographer.html">Photographers</a></p>
+                    <p><a href="gallery.html">Gallery</a></p>
+                    <p><a href="aboutme.html">About</a></p>
+                    <p><a href="plans.html">Pricing plans</a></p>
+                    <i class="fa fa-envelope"></i>: <a href="https://mail.google.com/">photorecreation123@gmail.com</a>
+                </div>
+                <div class="map">
+                    <h1>Location</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.0098971941784!2d83.17523381501486!3d27.686088982800864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3996f5b34bbb09f9%3A0xdd10245c0b9fd5d9!2sPhotoRec%20Creations!5e0!3m2!1sen!2snp!4v1629774981445!5m2!1sen!2snp" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+                </div>
+            </div>
+
+        </footer>
+
+        <script type = "text/javascript">
+            function validate() { 
+            if( document.myForm.F_name.value == "" ) {
+            alert( "Please provide your first name!" ); 
+            document.myForm.F_name.focus() ; 
+            return false;
+            }
+            if( document.myForm.L_Name.value == "" ) {
+            alert( "Please provide your last name!" ); 
+            document.myForm.L_name.focus() ; 
+            return false;
+            }
+            if( doucment.myForm.Pass.value == ""){
+                alert( "Please provide your Password!");
+                document.myForm.Pass.focus();
+                return false;
+            }
+            if( doucment.myForm.Re_pass.value == ""){
+                alert( "Please provide your Password to confirm!");
+                document.myForm.Re_pass.focus();
+                return false;
+            }
+            if( document.myForm.E_mail.value == "" ) {
+            alert( "Please provide your Email!" ); 
+            document.myForm.E_mail.focus() ; 
+            return false;
+            }
+            if( document.myForm.Zip.value == "" || isNaN( document.myForm.Zip.value ) || document.myForm.Zip.value.length != 5 ) { 
+            alert( "Please provide a zip in the format #####." ); 
+            document.myForm.Zip.focus() ; 
+            return false;
+            }
+            if( document.myForm.Address.value == "" ) {
+            alert( "Please provide your Address!" ); 
+            document.myForm.Address.focus() ; 
+            return false;
+            }
+            if( document.myForm.Gender.value == "" ) {
+            alert( "Please provide your Gender!" ); 
+            document.myForm.Gender.focus() ; 
+            return false;
+            }
+            if( document.myForm.Birthday.value == "" ) {
+            alert( "Please provide your Date of Birth!" ); 
+            document.myForm.Birthday.focus() ; 
+            return false;
+            }
+            if( document.myForm.Myfile.value == "" ) {
+            alert( "Please provide your picture!" ); 
+            document.myForm.Myfile.focus() ; 
+            return false;
+            }
+            if (document.myForm.Phone.value == ""){
+              alert("Please provide your number! ");
+              document.myForm.Phone.focus();
+              return false;
+            }
+            if( document.myForm.country.value == "-1" ) {
+            alert( "Please provide your country!" ); 
+            return false;
+            }
+            return( true );
+            }
+             </script>
+
+             <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+             <script>
+               AOS.init();
+             </script>
+</body>
+</html>

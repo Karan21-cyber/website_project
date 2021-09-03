@@ -1,0 +1,232 @@
+*{
+    padding:0;margin:0;box-sizing: border-box;
+}
+body{
+    height:1500px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: lightblue;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background:white;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 80px;
+    position: fixed;
+    top: 0;
+}
+.logo{
+    font-family: 'Tangerine', serif;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 35px;
+    font-weight: 1000;
+}
+.logo i{
+    color:red;
+}
+.logo span{
+    color: red;
+}
+.menu a{
+    text-decoration: none;
+    padding:10px 20px;
+    font-family: 'Tangerine', serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(22, 22, 78);
+}
+.menu a:nth-child(3){
+    color:red;
+}
+.menu a:hover{
+    color:red;
+}
+.h{
+        font-family: cursive;
+        font-style: arial;
+        color: blueviolet;
+        position: absolute;top: 15%;left: 20px;
+        }
+
+
+        .gallery{
+            padding: 100px;
+        }
+        .portfolio{
+            text-align: center;
+            margin-bottom: 20px;
+        
+        }
+        .portfolio ul li{
+             list-style: none;
+             display:inline-block;
+             margin: 20px 0px;
+             font-size: 20px;
+             font-family: sans-serif;
+             padding: 10px 20px;
+             cursor: pointer;
+             transition: 0.5s ease;
+             text-align: center;
+        }
+        .portfolio ul li:hover{
+            color:white;
+            background-color:red;
+            border-radius: 8px;
+        }
+        li.active{
+            color:white;
+            background-color:red;
+            border-radius: 8px;
+        }
+        .portfolio-items{
+            width: 100%;
+        }
+        .portfolio-items .items{
+            width: 180px;
+            height: 100px;
+            float:left;
+            margin-top: 80px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+        }
+        .portfolio-items .items:hover{
+            border:2px solid;
+            border-color: red;
+            border-radius: 8px;
+        }
+        .portfolio-items .items img{
+            width:100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+        .portfolio-items .items iframe{
+            width:100%;
+            height:100%;
+            border-radius:8px ;
+        }
+
+.desc {
+    padding: 5px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    top:115%;
+    background:rgb(48, 44, 44);
+    padding:50px 100px;  
+}
+.newsletter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    padding:30px ;
+    border:1px solid rgb(214, 206, 192);
+    color:white;
+}
+.newsletter >div{
+    flex-basis: 50%; 
+}
+.ntext{
+    text-align: right;
+}
+.newsletter h2{
+    font-size: 2em;
+    font-family: sans-serif;
+}
+.newsletter p{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.newsletter label{
+    position: relative;
+}
+.newsletter input{
+    padding:20px;
+    width: 70%;
+    border-radius: 8px;
+    border:none;
+    outline: none;
+    font-family: sans-serif;
+}
+.newsletter button{
+    position: absolute;
+    right:0;
+    padding: 20px;
+    width: 30%;
+    background-color: red;
+    color:white;
+    border:none;
+    outline: none;
+    border-radius: 0px 8px 8px 0px;
+}
+.f-contact{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em 0em;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.f-contact >div{
+    flex-basis: 20%;
+}
+.f-contact p{
+    line-height: 2em;
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+}
+.f-contact p:hover{
+    color: white;
+}
+.f-contact i{
+    background-color: white;
+    color:black;
+    padding: 10px;
+    font-size: 16px;
+    margin: 20px 5px;
+    border-radius: 50%;
+    transition: 0.4 ease;
+}
+.f-contact i:hover{
+    background:transparent;
+    color:white;
+    border:1px solid;
+}
+.f-contact .map img{
+    width:200px;
+    height:200px;
+    border:5px solid;
+    border-radius: 50px;
+}
+.f-contact .map img:hover{
+    border-color:green;
+
+}
+.f-contact .link a{
+    color:gray;
+    text-decoration: none;
+}
+.f-contact .link a:hover{
+    color:white;
+}
+.f-contact .detail a{
+    color:gray;
+    text-decoration: none;
+}
+.f-contact .detail a:hover{
+    color:white;
+}
+
+

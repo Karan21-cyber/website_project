@@ -1,0 +1,197 @@
+*{
+    padding:0;margin:0;box-sizing: border-box;
+}
+body{
+    height: 1000px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: lightblue;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background:white;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 80px;
+    position: fixed;
+    top: 0;
+}
+.logo{
+    font-family: 'Tangerine', serif;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 35px;
+    font-weight: 1000;
+}
+.logo i{
+    color:red;
+}
+.logo span{
+    color: red;
+}
+.menu a{
+    text-decoration: none;
+    padding:10px 20px;
+    font-family: 'Tangerine', serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(22, 22, 78);
+}
+.menu a:hover{
+    color:red;
+}
+.target{
+    position: absolute;
+    top:20%;
+    left:35%;
+    font-family: sans-serif;
+    font-size: 20px;
+    color:black;
+}
+.target h1{
+    width:500px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    color:blueviolet;
+}
+.target table{
+    width:500px;
+    height: 400px;
+    font-family: sans-serif;
+    margin-top: 15px;
+    text-align: center;
+    border-color: sienna;
+}
+.target table td:nth-child(2){
+    color:red;
+}
+.target label{
+    position: absolute;
+    margin-top: 20px;
+    text-align: center;
+}
+.target a{
+    text-decoration: none;;
+    color:gray;
+}
+.target a:hover{
+    color:green;
+    text-decoration: underline;
+}
+footer{
+    width: 100%;
+    position:absolute;
+    top:100%;
+    background:rgb(48, 44, 44);
+    padding:50px 100px;  
+}
+.newsletter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    padding:30px ;
+    border:1px solid rgb(214, 206, 192);
+    color:white;
+}
+.newsletter >div{
+    flex-basis: 50%; 
+}
+.ntext{
+    text-align: right;
+}
+.newsletter h2{
+    font-size: 2em;
+    font-family: sans-serif;
+}
+.newsletter p{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.newsletter label{
+    position: relative;
+}
+.newsletter input{
+    padding:20px;
+    width: 70%;
+    border-radius: 8px;
+    border:none;
+    outline: none;
+    font-family: sans-serif;
+}
+.newsletter button{
+    position: absolute;
+    right:0;
+    padding: 20px;
+    width: 30%;
+    background-color: red;
+    color:white;
+    border:none;
+    outline: none;
+    border-radius: 0px 8px 8px 0px;
+}
+.f-contact{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em 0em;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.f-contact >div{
+    flex-basis: 20%;
+}
+.f-contact p{
+    line-height: 2em;
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+}
+.f-contact p:hover{
+    color: white;
+}
+.f-contact i{
+    background-color: white;
+    color:black;
+    padding: 10px;
+    font-size: 16px;
+    margin: 20px 5px;
+    border-radius: 50%;
+    transition: 0.4 ease;
+}
+.f-contact i:hover{
+    background:transparent;
+    color:white;
+    border:1px solid;
+}
+.f-contact .map img{
+    width:200px;
+    height:200px;
+    border:5px solid;
+    border-radius: 50px;
+}
+.f-contact .map img:hover{
+    border-color:green;
+
+}
+.f-contact .link a{
+    color:gray;
+    text-decoration: none;
+}
+.f-contact .link a:hover{
+    color:white;
+}
+.f-contact .detail a{
+    color:gray;
+    text-decoration: none;
+}
+.f-contact .detail a:hover{
+    color:white;
+}

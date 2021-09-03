@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="about.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo" data-aos="fade-up-left">
+                <i class="fa fa-camera"></i><span>P</span>hoto<br><span>REC</span>creations
+            </div>
+            <div class="menu" data-aos="fade-up-left">
+              <a href="index.html">Home</a>
+              <a href="aboutme.html">About</a>
+              <a href="gallery.html">Gallery</a>
+              <a href="contact.html">Contact</a>
+              <a href="target.html">Target</a>
+            </div>
+        </nav>
+    </header>
+        
+
+<div class="lambo"  data-aos="fade-down">
+<h1 style="font-size:50px"><font color="red">P</font>hoto <font color="red">REC</font>creation</h1>    
+</div>
+
+
+    <button onclick= "changeBgColor()" data-aos="fade-down">changeBgColor</button>
+
+
+<div class="hero-text">
+      <img src="man.jfif" data-aos="zoom-in-up">
+      <h3  data-aos="fade-up-left">We are a Team</h3>
+      <div class="para"  data-aos="fade-up">
+      <p>We specialize in wedding photography, corporate, family and senior portraits,
+         often traveling to your destination to capture the perfect moment in the perfect place.
+          From the shores here in Lake Jagdishpur to the beaches of Lake Fewa in Phokara 
+          beyond. We will be there with you every step of the way to guarantee your special moments
+           are captured for all time.</p><br>
+
+        <p>To us photography is about people being real and then letting us paint
+         a picture of that moment to remember it forever. This is the story that matters most: real people, 
+         real stories, real moments.</p><br>
+        
+        <p>We are incredibly blessed to have a team of photographers who work with us on any given
+         weekend. Please take a few minutes to get to know us.</p><br>
+        
+       <p> We would love to visit with you by phone or in person and talk about your wedding, 
+        event, portrait session or video project. Please reach out to us through the <a href="contact.html" style="color:red;text-decoration:none;">Contact Page</a> .</p>
+        </div>
+   </div>
+
+<footer>
+  <div class="newsletter">
+      <div  data-aos="fade-up" data-aos-offset="100"
+      data-aos-delay="100">
+          <h2>Subscribe our Team</h2>
+          <p>We're a team of non-cynics who truly care for our work.</p>
+      </div>
+      <div class="ntext"  data-aos="fade-up-right" data-aos-offset="100"
+      data-aos-delay="200">
+          <label><input type="text" name="" placeholder="Enter your E-mail">
+          <button>Subscribe</button>
+      </label>
+      </div>
+  </div>
+  <div class="f-contact"  data-aos="zoom-in" data-aos-offset="100"
+  data-aos-delay="200">
+      <div>
+          <h1>Informations</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum illum, 
+              odit fuga corporis sed modi similique corrupti voluptatibus,
+               rem soluta doloremque est, eligendi omnis optio cupiditate ipsum 
+               cumque alias dolorem!</p>
+               <a href="https://www.whatsapp.com/"><i class="fa fa-whatsapp"></i></a>
+               <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+               <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+               <a href="https://www.telegram.com"><i class="fa fa-telegram"></i></a>
+      </div>
+      <div class="link">
+          <h1>Useful link</h1>
+          <p><a href="index.html">Home</a></p>
+          <p><a href="gallery.html">Gallery</a></p>
+          <p><a href="contact.html">Contact</a></p>
+          <p><a href="target.html">Target</a></p>
+          <p><i class="fa fa-phone"></i>: +9779813432132</p>
+      </div>
+      <div class="detail">
+          <h1>Details</h1>
+          <p><a href="photographer.html">Photographers</a></p>
+          <p><a href="gallery.html">Gallery</a></p>
+          <p><a href="aboutme.html">About</a></p>
+          <p><a href="plans.html">Booking plans</a></p>
+          <i class="fa fa-envelope"></i>: <a href="https://mail.google.com/">photorecreation123@gmail.com</a>
+      </div>
+      <div class="map">
+          <h1>Location</h1>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.0098971941784!2d83.17523381501486!3d27.686088982800864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3996f5b34bbb09f9%3A0xdd10245c0b9fd5d9!2sPhotoRec%20Creations!5e0!3m2!1sen!2snp!4v1629774981445!5m2!1sen!2snp" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+        </div>
+  </div>
+
+</footer>
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script>
+    var btn = document.querySelector("button");
+    function random(number) {
+    return Math.floor(Math.random() * (number+1));
+    }
+    function changeBgColor() {
+    var rCol = 'rgb(' + random(255) + ',' + random(255) 
+    + ',' + random(255) + ') ';
+    document.body.style.backgroundColor = rCol;
+    }
+    </script>
+    
+</body>
+</html>

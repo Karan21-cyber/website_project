@@ -1,0 +1,160 @@
+<!doctype html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Photographers</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="photographer.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo" data-aos="fade-up-left">
+                <i class="fa fa-camera"></i><span>P</span>hoto<br><span>REC</span>reations
+            </div>
+            <div class="menu" data-aos="fade-up-left">
+                <a href="index.html">Home</a>
+                <a href="aboutme.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+                <a href="target.html">Target</a>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="info" data-aos="fade-down">
+        <span>Our </span>Photographers
+    </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides">
+            <img src="photo1.jfif" >
+          <q>Alex is a really solid designer that I have the opportunity to work & collaborate <br>
+            with on a regular basis.Specialized in tweaking photographer websites, he has a great<br>
+            understanding of WordPress, is fast, reliable, fair and communicative. Really impressed<br>
+            by how fast he works.I love you the more in that I believe you had liked me for my own <br>
+            sake and for nothing else.
+        </q>
+          <p class="author">- Alex Keats</p>
+        </div>
+        
+        <div class="mySlides">
+            <img src="photo2.jpg">
+          <q>"If you are a photographer and looking for help in building a killer, responsive website<br>
+             - look no further! The best here! Alex is a custom website builder that understands <br>
+             photographers. And nice job on this newsletter - so much interesting content, it got my <br>
+             head spinning." But man is not made for defeat. A man can be destroyed but not defeated.
+            </q>
+          <p class="author">- Ernest Hemingway</p>
+        </div>
+        
+        <div class="mySlides">
+        <img src="photo3.jpg">
+          <q>I am Ane. Edison. I am a photographer in this company. I have been working here since 2<br>
+             year. I work in the field and do click photos and videos.I am blessed to have such <br>
+             platform to express my passion and creativity and my skills. It am graduate in photography <br>
+             course, graphics desigining etc. Thank You.
+            </q>
+          <p class="author">-  Ane. Edison</p>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+
+        <footer>
+            <div class="newsletter">
+                <div  data-aos="fade-up" data-aos-offset="100"
+                data-aos-delay="100">
+                    <h2>Subscribe our Team</h2>
+                    <p>We're a team of non-cynics who truly care for our work.</p>
+                </div>
+                <div class="ntext"  data-aos="fade-up-right" data-aos-offset="100"
+                data-aos-delay="200">
+                    <label><input type="text" name="" placeholder="Enter your E-mail">
+                    <button>Subscribe</button>
+                </label>
+                </div>
+            </div>
+            <div class="f-contact"  data-aos="zoom-in" data-aos-offset="100"
+            data-aos-delay="200">
+                <div>
+                    <h1>Informations</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum illum, 
+                        odit fuga corporis sed modi similique corrupti voluptatibus,
+                         rem soluta doloremque est, eligendi omnis optio cupiditate ipsum 
+                         cumque alias dolorem!</p>
+                         <a href="https://www.whatsapp.com/"><i class="fa fa-whatsapp"></i></a>
+                         <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                         <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                         <a href="https://www.telegram.com"><i class="fa fa-telegram"></i></a>
+                </div>
+                <div class="link">
+                    <h1>Useful link</h1>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="gallery.html">Gallery</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+                    <p><a href="target.html">Target</a></p>
+                </div>
+                <div class="detail">
+                    <h1>Details</h1>
+                    <p><a href="photographer.html">Photographers</a></p>
+                    <p><a href="gallery.html">Gallery</a></p>
+                    <p><a href="aboutme.html">About</a></p>
+                    <p><a href="plans.html">Pricing plans</a></p>
+                </div>
+                <div class="map">
+                    <h1>Location</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.0098971941784!2d83.17523381501486!3d27.686088982800864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3996f5b34bbb09f9%3A0xdd10245c0b9fd5d9!2sPhotoRec%20Creations!5e0!3m2!1sen!2snp!4v1629774981445!5m2!1sen!2snp" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+                </div>
+            </div>
+
+        </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+        <script>
+            var slideIndex = 0;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) 
+              {slideIndex = 1}    
+              if (n < 1)
+               {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+	
+</body>
+</html>
